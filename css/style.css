@@ -1,0 +1,296 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+   margin:0; 
+	 
+    background-color: white;
+	 
+}
+ 
+#menu {
+	background-color: #f8f9fa;
+	height: 78px;
+    padding: 0;
+}
+
+#logo {
+    font-family: 'Brygada 1918', serif;
+	font-size: 30px;
+    line-height: 80px;
+    margin-left: 19px;
+    color: rgba(75,1,3,1.00);
+    float: left;
+}
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgba(75,1,3,1.00);
+}
+
+nav a:hover {
+    border-bottom: 2px solid;
+    color: rgba(75,1,3,1.00);
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgba(75,1,3,1.00);
+}
+
+.ikon {
+    margin-right: 7px;
+    font-size: 16px;
+	color: rgba(75,1,3,1.00);
+}
+
+/*Anasayfadaki İd Ve Classlar Buradan İtibaren Başlar*/
+#anasayfa {
+	height: 600px;
+    background-image: url("../img/wall.jpg");
+    background-repeat: cover;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+#icerik {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+#icerik h2{
+    font-family: 'Brygada 1918', serif;
+}
+/*Hakkımızda İd Ve Classlar Buradan İtibaren Başlar*/
+#hakkimda {
+	background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    font-weight: 600px;
+}
+
+h3 {
+   font-family: 'Brygada 1918', serif;
+    font-size: 55px;
+    color: rgba(75,1,3,1.00);
+    font-weight: 600;
+}
+
+.container {
+    width:  1200px;
+	height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#sol {
+    float: left;
+    width: 400px;
+	border-right: 3px solid #445c6e;
+    font-size: 30px;
+	color: rgba(45,44,44,1.00);
+}
+
+#h5sol {
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol,
+#h5sag {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span {
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: rgba(75,1,3,1.00);
+    font-weight: 600;
+    float: left;
+}
+
+#sag {
+    float: right;
+   	width: 750px;
+	color: rgba(45,44,44,1.00);
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+#pson {
+    color:  rgba(45,44,44,1.00);
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+/*Egitimler İd Ve Classlar Buradan İtibaren Başlar*/
+
+#egitimler {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 850px;
+}
+
+.card {
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard {
+    font-size: 15px;
+    color: #003666;
+}
+
+.cardp {
+    color: #888;
+}
+
+.card:hover {
+    border: 2px solid gray;
+}
+
+#iletisim {
+   background-image: url(../img/darkred.jpg);
+	background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+#h3iletisim {
+    color: rgba(255,255,255,1.00);
+}
+
+#iletisimopak {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup {
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform {
+    width: 50%;
+    float: left;
+}
+
+#sagform {
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+textarea {
+    font-family: arial;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: rgba(45,44,44,1.00);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#social {
+    width: 450px;
+    float: left;
+    padding: 30px;
+    padding-left: 50px;
+    margin-left: 200px;
+    height: 500px;
+    text-align: left;
+}
+
+#socialbaslik{
+    color: white;
+     
+}
+
+.ikons{
+    margin-right: 20px;
+    font-size: 35px;
+	color: white;
+}
+
+#copyright {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#copyright a{
+	text-decoration: none;
+	color: white;
+}
+
+#up{
+    color: white;
+    font-size: 15px;
+    padding: 7px 12px;
+    margin-top: 20px;
+}
+
+ 
+ 
